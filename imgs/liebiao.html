@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>表单</h3>
+    <form action="/">
+        <label for="name">用户名：</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label for="password">密码：</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <br>
+        <label>性别：</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">男</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">女</label>
+        <br>
+        <br>
+        <label>爱好：</label>
+        <input type="checkbox" id="hobby1" name="hobby" value="hobby1">
+        <label for="hobby1">篮球</label>
+        <input type="checkbox" id="hobby2" name="hobby" value="hobby2">
+        <label for="hobby2">足球</label>
+        <input type="checkbox" id="hobby3" name="hobby" value="hobby3">
+        <label for="hobby3">跑步</label>
+        <br>
+        <br>
+        <label for="country">国家：</label>
+        <select name="country" id="country">
+            <option value="cn">中国</option>
+            <option value="us">美国</option>
+            <option value="uk">英国</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="提交111111111">
+        <br>
+        <br>
+        <textarea name="aa" id="aa" rows="10" cols="30" placeholder="请输入内容........"></textarea>
+        <hr>
+        <div>100&#120;120&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a#770;</div>
+        <hr>
+        <h3>视频标签</h3>
+        <video width="500" height="300" controls>
+            <source src="./imgs/movie.mp4" type="video/mp4">
+        </video>
+        <hr>
+        <hr>
+        选择你喜欢的颜色：<input type="color" name="favcolor">
+        <hr>
+        生日（日期和时间）：<input type="datetime-local" name="bdaytime">
+    </form>
+</body>
+</html>
