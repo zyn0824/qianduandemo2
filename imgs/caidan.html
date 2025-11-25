@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropbtn {
+            background-color: #EACAF8;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown-content {
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            display: none;
+        }
+        .aaa {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+            color: seagreen;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: red;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>下拉菜单</h2>
+    <p>阿萨大苏打</p >
+    <div class="dropdown">
+        <button class="dropbtn">下拉按钮</button>
+        <div class="dropdown-content">
+            <a href="#"class=aaa>链接1</a>
+            <a href="#"class=aaa>链接2</a>
+            <a href="#"class=aaa>链接3</a>
+        </div>
+    </div>
+</body>
+</html>
